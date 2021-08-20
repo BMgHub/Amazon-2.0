@@ -1,0 +1,36 @@
+body, html {
+    overflow-x: hidden;
+}
+
+.main-section-banner {
+    background: url("https://i.ibb.co/JnmTD12/banner.jpg") 0 no-repeat;
+    position: relative;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main-section-banner2 {
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2020/img/Prime/XCM_Manual_1500x350_1210306_1210306_IN_Prime_Deals_7a028a6d_aba0_4767_9510_e5e013c3a81f_jpg_LOWER_QL85_.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-product:hover {
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+} 
+
+.product-image:hover {
+    padding: 0;
+}
+
+.main-product .add-to-cart {
+    visibility: hidden;
+
+}
+
+.main-product:hover .add-to-cart {
+    visibility: visible;
+}
